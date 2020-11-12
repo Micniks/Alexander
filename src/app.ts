@@ -3,6 +3,7 @@ import express from "express";
 import path from "path";
 const app = express();
 
+console.log('I*M BREAKING THE RULEZ !?!?!')
 
 app.get("/api/dummy", (req, res) => {
   res.json({ msg: "Hello" })
