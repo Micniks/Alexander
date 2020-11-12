@@ -9,6 +9,10 @@ app.get("/api/dummy", (req, res) => {
   res.json({ msg: "Hello" })
 })
 
+app.get("/api/dymmu", (req, res) => {
+  res.json({ msg: "olleH" })
+})
+
 const PORT = process.env.PORT || 3000;
 const server = app.listen(PORT)
 console.log(`Server started, listening on port: ${PORT}`)
